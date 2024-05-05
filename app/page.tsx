@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import SliderComp from "@/components/ui/SliderComp";
 import { SpotLight } from "@/components/ui/SpotLight";
+import WebsiteDesign from "@/components/WebsiteDesign";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <div className="w-full pt-20">
           <SliderComp />
+          <WebsiteDesign />
         </div>
       </div>
     </div>
